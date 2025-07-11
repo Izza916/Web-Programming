@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.course-row {
+  margin-bottom: 10px;
+}
+
+input, select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.gpa-result {
+  margin-top: 20px;
+}
