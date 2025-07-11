@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming Class Task (Bonus)</title>
+</head>
+<body>
+    <h1>Need more tools?</h1>
+    <form action="#">
+        <label for="results">Results per page:</label>
+        <select id="results" name="results">
+            <option>10 results</option>
+            <option>20 results</option>
+            <option>50 results</option>
+        </select>
+        <br><br>
+
+        <label for="language">Language:</label>
+        <select id="language" name="language">
+            <option>any language</option>
+            <option>English</option>
+            <option>French</option>
+        </select>
+        <br><br>
+
+        <label for="filetype">File type:</label>
+        <select id="filetype" name="filetype">
+            <option>any format</option>
+            <option>PDF</option>
+            <option>DOC</option>
+        </select>
+        <br><br>
+
+        <label for="site">Search within a site or domain:</label>
+        <input type="text" id="site" name="site" placeholder="e.g. youtube.com, .edu">
+        <br><br>
+
+        <h3>Date, usage rights, numeric range, and more</h3>
+        <label for="date">Date (how recent the page is):</label>
+        <select id="date" name="date">
+            <option>anytime</option>
+            <option>past 24 hours</option>
+            <option>past week</option>
+        </select>
+        <br><br>
+
+        <label for="usage-rights">Usage rights:</label>
+        <select id="usage-rights" name="usage-rights">
+            <option>not filtered by license</option>
+            <option>free to use or share</option>
+            <option>free to use, share, or modify</option>
+        </select>
+        <br><br>
+
+        <label for="keywords">Where your keywords show up:</label>
+        <select id="keywords" name="keywords">
+            <option>anywhere in the page</option>
+            <option>in the title of the page</option>
+            <option>in the URL of the page</option>
+        </select>
+        <br><br>
+
+        <label for="region">Region:</label>
+        <select id="region" name="region">
+            <option>any region</option>
+            <option>United States</option>
+            <option>Europe</option>
+        </select>
+        <br><br>
+
+        <label for="numeric-range">Numeric range:</label>
+        <input type="text" id="numeric-range" name="numeric-range" placeholder="e.g. $1500..$3000">
+        <br><br>
+
+        <label>SafeSearch:</label>
+        <input type="radio" id="safesearch-off" name="safesearch" value="off" checked>
+        <label for="safesearch-off">Off</label>
+        <input type="radio" id="safesearch-on" name="safesearch" value="on">
+        <label for="safesearch-on">On</label>
+        <br><br>
+
+        <h1>Page-specific tools:</h1>
+        <label for="similar">Find pages similar to the page:</label>
+        <input type="text" id="similar" name="similar">
+        <button type="submit">Search</button>
+        <br><br>
+
+        <label for="link-to">Find pages that link to the page:</label>
+        <input type="text" id="link-to" name="link-to">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header .nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        .intro {
+            text-align: left;
+            padding: 20px;
+            background-color: #e9e9e9;
+        }
+
+        .slider {
+            text-align: center;
+            padding: 20px;
+            background-color: #ddd;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="nav">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </div>
+    </div>
+
+    <!-- Intro Section -->
+    <div class="intro">
+        <h1>Intro</h1>
+        <p>Some introduction lines about the website or company</p>
+    </div>
+
+    <!-- Featured Project Slider -->
+    <div class="slider">
+        <p>Featured Project Slider</p>
+    </div>
+
+    <!-- Services Section -->
+    <div class="grid-container">
+        <div class="grid-item">Services</div>
+        <div class="grid-item">Services</div>
+        <div class="grid-item">Services</div>
+    </div>
+
+    <!-- Recent Work Section -->
+    <div class="grid-container">
+        <div class="grid-item">Recent Work</div>
+        <div class="grid-item">Recent Work</div>
+        <div class="grid-item">Recent Work</div>
+    </div>
+
+    <!-- Twitter Feed Section -->
+    <div class="footer">
+        <p>Twitter Feed</p>
+    </div>
+
+    <!-- Copyright Info -->
+    <div class="footer">
+        <p>Link1 | Link2 | Link3 | Link4 | Link5</p>
+        <p>Copyright Info</p>
+    </div>
+</body>
+</html>
